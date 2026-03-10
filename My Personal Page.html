@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Page</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #555;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px;
+            background: white;
+            border-radius: 5px;
+        }
+
+        img {
+            display: block;
+            margin: 10px auto;
+            width: 150px;
+            border-radius: 50%;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        input {
+            padding: 8px;
+            margin: 5px 0;
+            width: 100%;
+            max-width: 300px;
+        }
+
+        input[type="submit"] {
+            background-color: #333;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+        }
+    </style>
+
+</head>
+<body>
+
+<header>
+    <h1>My Name</h1>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+</nav>
+
+<section>
+
+    <article>
+        <h2>About Me</h2>
+        <p>Hello! I am a student learning HTML. I enjoy learning how to build websites and improve my coding skills.</p>
+    </article>
+
+    <img src="profile.jpg" alt="My profile picture">
+
+    <h3>My Hobbies</h3>
+    <ul>
+        <li>Playing games</li>
+        <li>Watching videos</li>
+        <li>Learning programming</li>
+    </ul>
+
+    <h2>Registration Form</h2>
+
+    <form>
+
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password"><br>
+
+        <label for="birthdate">Birthdate:</label><br>
+        <input type="date" id="birthdate" name="birthdate"><br>
+
+        <label for="favnumber">Favorite Number:</label><br>
+        <input type="number" id="favnumber" name="favnumber"><br><br>
+
+        <input type="submit" value="Register">
+
+    </form>
+
+</section>
+
+<footer>
+    <p>© 2026 My Personal Page</p>
+</footer>
+
+</body>
+</html>
